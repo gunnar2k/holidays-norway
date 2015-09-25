@@ -8,9 +8,9 @@ This library is a partial port of [holidays/holidays](https://github.com/holiday
 
 # Usage
 
-`llolol ol
-adfadsf
-adsfadf`
+```javascript
+
+```
 
 # Building .coffee
 
