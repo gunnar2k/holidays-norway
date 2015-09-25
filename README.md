@@ -14,7 +14,7 @@ This library is a partial port of [holidays/holidays](https://github.com/holiday
 
 # Building .coffee
 
-`coffee -o lib/ -c src/ && coffee -c test/refix.coffee`
+`coffee -o lib/ -c src/`
 
 # Author
 
