@@ -34,17 +34,15 @@ should output
 
 # Building from .coffee
 
-`coffee -o lib/ -c src/`
+Running `coffee -o lib/ -c src/` will output overwrite `lib/holidays.js` built from coffee-script source.
 
 # Author
 
-Gunnar Fornes
+Gunnar Fornes <gunnarfornes@gmail.com>
 
 # License
 
 (The MIT License)
-
-Copyright (c) 2015 Gunnar Fornes <gunnarfornes@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
