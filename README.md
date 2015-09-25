@@ -8,11 +8,13 @@ This library is a partial port of [holidays/holidays](https://github.com/holiday
 
 # Usage
 
+TODO : PUBLISH ON npm
+
 ```javascript
 
 ```
 
-# Building .coffee
+# Building from .coffee
 
 `coffee -o lib/ -c src/`
 
