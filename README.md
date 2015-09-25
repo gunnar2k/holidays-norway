@@ -8,10 +8,28 @@ This library is a partial port of [holidays/holidays](https://github.com/holiday
 
 # Usage
 
-todo
-
 ```javascript
+var holidays = require('holidays-norway');
+console.log(holidays.by_year(2015))
+```
 
+should output  
+
+```
+[ { name: 'Palmesøndag', date: '2015-03-29' },
+  { name: 'Skjærtorsdag', date: '2015-04-02' },
+  { name: 'Langfredag', date: '2015-04-03' },
+  { name: '1. påskedag', date: '2015-04-05' },
+  { name: '2. påskedag', date: '2015-04-06' },
+  { name: 'Kristi Himmelsprettsdag', date: '2015-05-14' },
+  { name: '1. pinsedag', date: '2015-05-24' },
+  { name: '2. pinsedag', date: '2015-05-25' },
+  { name: 'Nyttårsdag', date: '2015-01-01' },
+  { name: '1. mai', date: '2015-05-01' },
+  { name: '17. mai', date: '2015-05-17' },
+  { name: '1. juledag', date: '2015-12-25' },
+  { name: '2. juledag', date: '2015-12-26' },
+  { name: 'Nyttårsaften', date: '2015-12-31' } ]
 ```
 
 # Building from .coffee
