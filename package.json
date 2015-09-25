@@ -1,8 +1,8 @@
 {
   "name": "holidays-norway",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "main": "lib/helligdager.js",
+  "main": "lib/holidays.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "https://github.com/gunnar2k/holidays-norway.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Gunnar Fornes",
+  "license": "MIT",
   "devDependencies": {
     "coffee-script": "^1.10.0"
   },
