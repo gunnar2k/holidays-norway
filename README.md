@@ -2,9 +2,9 @@ A simple JavaScript library for listing all norwegian holidays by a given year.
 
 This library is a partial port of [holidays/holidays](https://github.com/holidays/holidays/blob/master/lib/holidays.rb).
 
-# Installation
+<!-- # Installation
 
-`npm install holidays-norway`
+`npm install holidays-norway` -->
 
 # Usage
 
