@@ -1,7 +1,5 @@
 A simple JavaScript library for listing all norwegian holidays by a given year.  
 
-This library is a partial port of [holidays/holidays](https://github.com/holidays/holidays/blob/master/lib/holidays.rb).
-
 # Installation
 
 `npm install holidays-norway`
@@ -9,8 +7,9 @@ This library is a partial port of [holidays/holidays](https://github.com/holiday
 # Usage
 
 ```javascript
-var holidays = require('holidays-norway');
-console.log(holidays.by_year(2015))
+import holidays from 'holidays-norway';
+
+console.log(holidays(2015));
 ```
 
 should output  
@@ -32,13 +31,21 @@ should output
   { name: 'Nyttårsaften', date: '2015-12-31' } ]
 ```
 
-# Building from .coffee
+# Testing
 
-Running `coffee -o lib/ -c src/` will output overwrite `lib/holidays.js` built from coffee-script source.
+`npm run test`
+
+# Building
+
+`npm run build`
 
 # Author
 
 Gunnar Fornes <gunnarfornes@gmail.com>
+
+# Credits
+
+This library is a partial port of [holidays/holidays](https://github.com/holidays/holidays/blob/master/lib/holidays.rb).
 
 # License
 

@@ -1,10 +1,12 @@
 {
   "name": "holidays-norway",
-  "version": "1.0.4",
-  "description": "",
-  "main": "lib/holidays.js",
+  "version": "1.0.5",
+  "description": "A small library to get norwegian holidays by any given year.",
+  "main": "dist/holidays.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel index.js -o dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -13,7 +15,9 @@
   "author": "Gunnar Fornes",
   "license": "MIT",
   "devDependencies": {
-    "coffee-script": "^1.10.0"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0"
   },
   "dependencies": {
     "moment": "^2.10.6"
