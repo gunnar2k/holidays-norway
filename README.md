@@ -12,6 +12,14 @@ import holidays from 'holidays-norway';
 console.log(holidays(2015));
 ```
 
+…or using `require()`:
+
+```javascript
+const holidays = require('holidays-norway').default;
+
+console.log(holidays(2015));
+```
+
 will output the holidays for 2015:
 
 ```
