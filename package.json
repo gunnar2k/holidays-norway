@@ -1,6 +1,6 @@
 {
   "name": "holidays-norway",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A small library to get norwegian holidays by any given year.",
   "main": "dist/index.js",
   "scripts": {
