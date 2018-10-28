@@ -1,4 +1,4 @@
-A simple JavaScript library for listing all norwegian holidays by a given year.  
+A simple JavaScript library for listing the official holidays for Norway for any given year.  
 
 # Installation
 
@@ -12,7 +12,7 @@ import holidays from 'holidays-norway';
 console.log(holidays(2015));
 ```
 
-will output the holidays for 2015: 
+will output the holidays for 2015:
 
 ```
 [ { name: 'Palmesøndag', date: '2015-03-29' },
