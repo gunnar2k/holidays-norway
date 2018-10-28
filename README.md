@@ -12,7 +12,7 @@ import holidays from 'holidays-norway';
 console.log(holidays(2015));
 ```
 
-should output  
+will output the holidays for 2015: 
 
 ```
 [ { name: 'Palmesøndag', date: '2015-03-29' },
