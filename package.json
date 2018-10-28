@@ -2,7 +2,7 @@
   "name": "holidays-norway",
   "version": "1.0.5",
   "description": "A small library to get norwegian holidays by any given year.",
-  "main": "dist/holidays.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel index.js -o dist/index.js",
     "test": "jest",
