@@ -19,7 +19,7 @@ const getEaster = (year) => {
   return new Date(year,n,p);
 }
 
-const holidays = (year) => {
+export default (year) => {
   const easter = getEaster(year);
   return [
     {
@@ -80,5 +80,3 @@ const holidays = (year) => {
     }
   ];
 };
-
-export default holidays;
