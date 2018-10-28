@@ -29,7 +29,7 @@ var getEaster = function getEaster(year) {
   return new Date(year, n, p);
 };
 
-var holidays = function holidays(year) {
+exports.default = function (year) {
   var easter = getEaster(year);
   return [{
     name: 'Palmesøndag',
@@ -75,5 +75,3 @@ var holidays = function holidays(year) {
     date: (0, _moment2.default)().year(year).month('december').date(31).format('YYYY-MM-DD')
   }];
 };
-
-exports.default = holidays;
